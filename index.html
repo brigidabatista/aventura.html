@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Uma aventura misteriosa</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Certo dia você encontrou um velho pergaminho em sua mochila ao retornar da escola. Ele trazia uma mensagem clara: "Escolha seu caminho, mas lembre-se: cada escolha abre uma porta e fecha outra" </p>
+            <p>Ao ler a mensagem, o pergaminho brilhava e uma voz sussurrava</p>
+            <button class="btn-proximo" data-proximo="1">Ir ao bosque</button>
+            <button class="btn-proximo" data-proximo="2">Voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>No bosque  você encontrou dois caminhos </p>
+            <button class="btn-proximo" data-proximo="3">Siga a trilha ensolorada</button>
+            <button class="btn-proximo" data-proximo="4">Entre na caverna escura</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Dentro você viu uma bifurcação e duas portas mágicas</p>
+            <button class="btn-proximo" data-proximo="5">Porta dourada com um brilho quente</button>
+            <button class="btn-proximo" data-proximo="6">Porta prateada com um frio intenso</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>A luz da porta prateada parecia te chamar para ela</p>
+            <button class="btn-proximo" data-proximo="7">Abrir a porta dourada</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Quando você decide abrir a porta é teleportado de volta para casa.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Persistente você decide continuar a aventura</p>
+            <button class="btn-proximo" data-proximo="7">Voltar para o bosque</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando o bosque novamente encontra as portas dourada e prateada.</p>
+            <button class="btn-proximo" data-proximo="8">Seguir em frente</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Novamente você fica em dúvida entre a porta dourada e prateada</p>
+            <button class="btn-proximo" data-proximo="9">Abrir a dourada</button>
+            <button class="btn-proximo" data-proximo="10">Abrir a prateada</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Desta vez você resolve abrir a dourada</p>
+            <button class="btn-proximo" data-proximo="7">Seguir pela dourada</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Quando você entra, há apenas um longo corredor dourado e vazio e no final uma porta.</p>
+            <button class="btn-proximo" data-proximo="11">Seguir o corredor até a porta</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Quando chega na porta e tenta abrí-la ela estava trancada, mas há uma chave no chão ao lado da porta</p>
+            <button class="btn-proximo" data-proximo="12">Pegar a chave e abrir a porta</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da sala que escondia a porta, há um baú brilhante</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Quando abre o baú, há um cristal azul e reluzente, que parecia pulsar em sua mão, até que uma voz de repente retorna:</p>
+            <button class="btn-proximo" data-proximo="11">Voltar ao início</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
